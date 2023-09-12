@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    padding: 2rem 0;
+    background-color: rgb(30, 40, 87);
+}
+.location-section{
+    height: 100vh;
+}
+.map-section{
+    border: rgb(255, 188, 44) solid 3px;
+    height: 60vh;
+    width: 70vw;
+    margin: 0 auto;
+    background:url(img/flintmap.png);
+    background-size: cover;
+    background-position: center;
+    transition: all .4s ease-in-out;
+}
+.map-section:hover{
+    scale: 1.1;
+    transition: all .7s ease-in-out;
+}
